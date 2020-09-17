@@ -1,0 +1,380 @@
+/* Amarelo: #ffbf00 rgb(255, 191, 0)
+#0040ff
+cinza: #28283c rgb(40, 40, 60) */
+
+* { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; border-radius: 25px;}
+
+body {background-color: rgba(40, 40, 60, 0.4) ;}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header>img {
+    width: 10%;
+
+}
+
+.calculadora-1 {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;
+    width: 100%;
+    margin: 1em 3em;*/
+}
+
+.titulo {
+    margin: 1em 1em;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 64, 255, 1) ;
+    font-size: 2em;
+    
+}
+
+.details {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 4fr;
+    margin: 1em 1em;
+    color: white;
+
+}
+
+.explicacao {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.calculate {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr repeat(4, 1fr);
+    margin: 1em 1em;
+    gap: 1em;
+    
+}
+
+.turmas {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.turmas>div {
+    color: white;
+    background-color: #28283c;
+    margin: 0.25em 0;
+    padding: 0.2em 0.2em;
+}
+
+.n-alunos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.n-alunos>input {
+    margin: 0.25em 0;
+    padding: 0.2em 0.2em;   
+}
+
+.mobile {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #28283c;
+    padding: 0.2em 0.8em;  
+
+}
+
+
+
+
+.x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #28283c ;
+    font-size: 1em;
+
+}
+
+.meses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #28283c ;
+    font-size: 1em;
+}
+
+.preco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #28283c ;
+    font-size: 1em;
+}
+
+
+
+.calculate-2 {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1.5fr repeat(4, 1fr);
+    margin: 1em 1em;
+    gap: 1em;
+}
+
+
+.explicacao {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.titulo_tabela {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1.5fr repeat(4, 1fr);
+    margin: 1em 1em;
+    color: white;
+
+}
+
+.th {display: flex; justify-content: center;}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px dotted rgba(40, 40, 60, 0.4);
+}
+
+.checkboxes>input {
+    margin: 0.25em 0;
+    padding: 0.2em 0.2em;
+}
+
+.n-redacoes {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    color: white;
+    border: 2px dotted rgba(40, 40, 60, 0.4);
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botao>input {
+    background-color: rgb(0, 64, 255);
+    border: 2px solid #28283c;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    margin: 1em 1em;
+}
+
+.radios {
+    display: grid;
+    grid-template: 1fr 1fr / 25% 25% 25% 25%;
+    justify-items: center;
+}
+
+.radios>input {
+    grid-row-start: 2;
+}
+
+.radios>label {
+    grid-row-start: 1;
+}
+
+.historico-titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.historico {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+#totalalunos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1em 1em;
+    background-color: rgba(40, 40, 60, 1);
+}
+
+
+#totalcl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1em 1em;
+    background-color: rgba(40, 40, 60, 1);
+}
+
+#totalpreco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1em 1em;
+    background-color: rgba(40, 40, 60, 1);
+}
+
+
+input {opacity: 0.7;}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+    font-size: 2em;
+    background-color:rgba(0, 64, 255, 0.8);
+}
+
+.resultado-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+}
+
+.resultado-container>div {
+    background-color:rgba(40, 40, 60, 0.4);
+    margin: 0.2em 0;
+    padding: 0 0.2em;
+}
+
+.parcelas {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 64, 255, 0.8);
+    margin: 0 2em;
+}
+
+.slidercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.valorparcela {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 375px) {
+
+    header>img {width: 40%;}
+    
+    .calculate {
+        display: grid;
+        grid-template: 1fr / 1fr 1fr;
+
+    }
+
+    .details {
+        display: grid;
+        grid-template: 1fr / 1fr 1fr;
+
+    }
+
+    .calculate-2 {
+        display: grid;
+        grid-template: 1fr / 1fr 1fr 1.5fr;
+
+    }
+
+    .titulo_tabela {
+
+        display: grid;
+        grid-template: 1fr / 1fr 1fr 1.5fr;
+
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .x {
+        display: none;
+    }
+
+    .preco {
+        display: none;
+    }
+
+    .meses {
+        display: none;
+    }
+
+    .titulo {
+        font-size: 1.2em;
+    }
+
+    .botao>input {
+        font-size: 1em;
+    }
+
+    .historico-titulo {
+        font-size: 1em;
+    }
+
+    .historico>div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .historico>div>div {
+        font-size: 0.8em;
+        margin: 0.5em 1em;
+    }
+
+    .resultado {
+        font-size: 1.2em;
+    }
+
+    .parcelas {
+        
+        margin: 0 1em;
+        padding: 0.5em 0;
+    }
+
+    .valorparcela {
+       
+        font-size: 1em;
+    }
+}

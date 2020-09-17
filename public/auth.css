@@ -1,0 +1,22 @@
+* { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; border-radius: 25px;}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 64, 255, 1);
+    padding: 1em 0;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form>button {
+    font-size: 1.5em;
+    margin: 1em 0;
+    padding: 0 1em;
+}
