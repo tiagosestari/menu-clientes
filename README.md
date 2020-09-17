@@ -10,13 +10,13 @@ valores e o contexto em geral de modo a não divulgar informações. Foram prese
 
 A empresa tem um cardápio de produtos que os **clientes tinham dificuldade de compreender e calcular o preço final**. Como é uma venda complexa feita por meio de um relacionamento,
 não sendo um produto varejo que o cliente compra diretamente do site, essa calculadora foi pedida como um instrumento para ser enviado para **clientes simularem orçamentos com mais
-autonômia e facilidade**.
+autonomia e facilidade**.
 
 
 ## TELAS E FUNCIONAMENTO ##
 
 #### Tela de autenticação ####
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/autenticacao.png?raw=true)
+![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/autenticacao.PNG?raw=true)
 
 Como o aplicativo é enviado diretamente aos clientes e não salva nenhum dado em banco de dados, 
 não foi necessário criar um sistema de autenticação muito complexo.
@@ -25,9 +25,9 @@ Desse modo, com um único login e senha salvos nas variáveis ambiente, que a em
 para seus clients, a autenticação é feita na rota do backend.
 
 #### Tela principal ####
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-a.png?raw=true)
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-b.png?raw=true)
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-c.png?raw=true)
+![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-a.PNG?raw=true)
+![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-b.PNG?raw=true)
+![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-c.PNG?raw=true)
 
 * Na tela principal o cliente tem a fórmula utilizada colocada de forma clara e pode colocar o número
   de participantes de cada grupo. 
@@ -45,8 +45,8 @@ para seus clients, a autenticação é feita na rota do backend.
 * O aplicativo inclui mais duas features interessantes:
     * Um slider para incluir o número de parcelas atualizado em tempo real com o valor de cada parcela
     * Um histórico de simulações para que o cliente tenha facilmente em uma tabela e possa analisar.
-      ![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-d.png?raw=true)
+      ![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-d.PNG?raw=true)
 
 * Vale apontar também que o aplicativo é responsivo 
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-e.png?raw=true)
+![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-e.PNG?raw=true)
 
