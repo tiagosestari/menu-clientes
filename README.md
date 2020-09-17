@@ -16,7 +16,7 @@ autonomia e facilidade**.
 ## TELAS E FUNCIONAMENTO ##
 
 #### Tela de autenticação ####
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/autenticacao.PNG?raw=true)
+![alt text](https://github.com/tiagosestari/menu-clientes/blob/master/telas/autenticacao.PNG?raw=true)
 
 Como o aplicativo é enviado diretamente aos clientes e não salva nenhum dado em banco de dados, 
 não foi necessário criar um sistema de autenticação muito complexo.
@@ -25,9 +25,9 @@ Desse modo, com um único login e senha salvos nas variáveis ambiente, que a em
 para seus clients, a autenticação é feita na rota do backend.
 
 #### Tela principal ####
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-a.PNG?raw=true)
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-b.PNG?raw=true)
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-c.PNG?raw=true)
+![alt text](https://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-a.PNG?raw=true)
+![alt text](https://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-b.PNG?raw=true)
+![alt text](https://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-c.PNG?raw=true)
 
 * Na tela principal o cliente tem a fórmula utilizada colocada de forma clara e pode colocar o número
   de participantes de cada grupo. 
@@ -45,8 +45,8 @@ para seus clients, a autenticação é feita na rota do backend.
 * O aplicativo inclui mais duas features interessantes:
     * Um slider para incluir o número de parcelas atualizado em tempo real com o valor de cada parcela
     * Um histórico de simulações para que o cliente tenha facilmente em uma tabela e possa analisar.
-      ![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-d.PNG?raw=true)
+      ![alt text](https://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-d.PNG?raw=true)
 
 * Vale apontar também que o aplicativo é responsivo 
-![alt text](hhttps://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-e.PNG?raw=true)
+![alt text](https://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-e.PNG?raw=true)
 
