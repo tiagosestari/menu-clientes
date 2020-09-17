@@ -80,7 +80,7 @@ if (nono_ano || p_ano || s_ano || t_ano) {
   document.getElementById("totalcl").innerHTML += "<div>" + Number(TotalRedacao) + "</div>";
   document.getElementById("totalpreco").innerHTML += "<div> R$ " + Number(resultado_final.toFixed(2)) + "</div>";
   
-} else { alert("Insira o número de alunos");}
+} else { alert("Insira o número de candidatos");}
   
 }
 
