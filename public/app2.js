@@ -7,7 +7,7 @@ function calcular() {
   
   var TotalAlunos = Number(nono_ano) + Number(p_ano) + Number(s_ano) + Number(t_ano);
 
-  var resultado = TotalAlunos*5.9*12;
+  var resultado = TotalAlunos*10.9*12;
 
   var n_cb = document.getElementById("nono_ano_cb").checked;
   var p_cb = document.getElementById("p_ano_cb").checked;
@@ -58,7 +58,7 @@ if (t_cb) {
 } else { var corretor_l_t_ano = 0; var trv = 0; }
 
   var TotalCorretores = Number(corretor_l_n_ano) + Number(corretor_l_p_ano) + Number(corretor_l_s_ano) + Number(corretor_l_t_ano);
-  var corretores_Letrus = TotalCorretores*0.6*12; 
+  var corretores_Letrus = TotalCorretores*2.9*12; 
   
   window.resultado_final = Number(corretores_Letrus) + resultado;
   
@@ -71,10 +71,10 @@ if (t_cb) {
  
 if (nono_ano || p_ano || s_ano || t_ano) {
     document.getElementById("resultado").innerHTML = "<div> Valor Anual Total: R$ " + Number(resultado_final.toFixed(2)) + "</div>" 
-    + "<div class=\"resultado-container\"> <div>Valor anual por aluno 9º ano: R$ " + ((5.9*12) + (Number(nrv)*0.6*12)).toFixed(2) +  "</div>"
-    + "<div>Valor anual por aluno 1º ano: R$ " + ((5.9*12) + (Number(prv)*0.6*12)).toFixed(2) +  "</div>"
-    + "<div>Valor anual por aluno 2º ano: R$ " + ((5.9*12) + (Number(srv)*0.6*12)).toFixed(2) +  "</div>"
-    + "<div>Valor anual por aluno 3º ano: R$ " + ((5.9*12) + (Number(trv)*0.6*12)).toFixed(2) +  "</div> </div>";
+    + "<div class=\"resultado-container\"> <div>Valor anual por candidato Grupo A: R$ " + ((10.9*12) + (Number(nrv)*2.9*12)).toFixed(2) +  "</div>"
+    + "<div>Valor anual por candidato Grupo B: R$ " + ((10.9*12) + (Number(prv)*2.9*12)).toFixed(2) +  "</div>"
+    + "<div>Valor anual por candidato Grupo C: R$ " + ((10.9*12) + (Number(srv)*2.9*12)).toFixed(2) +  "</div>"
+    + "<div>Valor anual por candidato Grupo D: R$ " + ((10.9*12) + (Number(trv)*2.9*12)).toFixed(2) +  "</div> </div>";
 
   document.getElementById("totalalunos").innerHTML += "<div>" + Number(TotalAlunos) + "</div>";
   document.getElementById("totalcl").innerHTML += "<div>" + Number(TotalRedacao) + "</div>";
