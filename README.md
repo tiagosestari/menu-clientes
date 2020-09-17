@@ -48,5 +48,6 @@ para seus clients, a autenticação é feita na rota do backend.
       ![alt text](https://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-d.PNG?raw=true)
 
 * Vale apontar também que o aplicativo é responsivo 
+
 ![alt text](https://github.com/tiagosestari/menu-clientes/blob/master/telas/tela-e.PNG?raw=true)
 
